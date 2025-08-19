@@ -8,5 +8,5 @@ class Solution:
             rev = rev * 10 + x % 10
             x //= 10
 
-        rev *= sign
+        rev *= sign 
         return rev if -2147483648 <= rev <= 2147483647 else 0
